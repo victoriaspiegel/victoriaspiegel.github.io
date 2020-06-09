@@ -17,7 +17,7 @@ body {
 }
 
 #about {
-    background-color: #76D7C4;
+    background-color: #A3E4D7;
     height: 1020px;
     margin-top: -30px;
 }
@@ -30,7 +30,7 @@ body {
     font-size: 30px;
     background: #ccc;
     height: 700px;
-    font-family: 'Roboto Mono', Roboto;
+    font-family: 'Monaco', 'Courier New';
     text-align: left;
     font-size: 14px;
     color: #fafafa;
