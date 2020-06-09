@@ -1,0 +1,48 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    line-height:  20px;
+    color: #ffffff;
+    background-color: #4C5364;
+}
+
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: #76D7C4;
+    height: 1020px;
+    margin-top: -30px;
+}
+
+#code {
+    border-radius: 5px;
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: #ccc;
+    height: 700px;
+    font-family: 'Roboto Mono', Roboto;
+    text-align: left;
+    font-size: 14px;
+    color: #fafafa;
+}
+
+#console {
+    width: 670px;
+    padding: 40px;
+    margin: 0 auto;
+    background: #383737;
+}
+
+span.consoleOutput {
+    color: #ccc;
+}
