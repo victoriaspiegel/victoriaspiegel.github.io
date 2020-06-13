@@ -55,8 +55,9 @@ body {
 }
 
 #headshot img {
-    padding-top: 150px;
+    padding: 150px 50px 150px 50px;
     width: 50%;
+    height: 50%;
 }
 
 #introduction {
@@ -68,17 +69,18 @@ body {
     padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3em;
-    color: #fafafa;
+    color: #383737;
     font-size: 30px;
     text-transform: uppercase;
+    padding: 20px 0 20px 0
 }
 
 .description {
     text-align: center;
     padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
-    color: #fafafa;
-    font-size: 15px;
+    color: #383737;
+    font-size: 20px;
 }
 
 #about {
