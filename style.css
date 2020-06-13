@@ -35,6 +35,8 @@ body {
 }
 
 #container {
+    min-width: 800px;
+    background-color: #E5E7E9;
     margin: 4em;
     flex-wrap: wrap;
     display: flex;
@@ -44,10 +46,6 @@ body {
 }
 
 #headshot {
-    background-color: #E5E7E9;
-    width: 100%;
-    padding-bottom: 50px;
-    min-width: 800px;
     flex: 1 1 0;
     display: flex;
     justify-content: center;
@@ -55,9 +53,8 @@ body {
 }
 
 #headshot img {
-    padding: 150px 50px 150px 50px;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 #introduction {
@@ -81,6 +78,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #383737;
     font-size: 20px;
+    padding: 20px 0 20px 0
 }
 
 #about {
