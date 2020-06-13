@@ -48,11 +48,19 @@ body {
     width: 100%;
     padding-bottom: 50px;
     min-width: 800px;
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #headshot img {
     padding-top: 150px;
     width: 50%;
+}
+
+#introduction {
+    flex: 1 1 0;
 }
 
 .text-header {
@@ -63,6 +71,14 @@ body {
     color: #fafafa;
     font-size: 30px;
     text-transform: uppercase;
+}
+
+.description {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+    font-size: 15px;
 }
 
 #about {
